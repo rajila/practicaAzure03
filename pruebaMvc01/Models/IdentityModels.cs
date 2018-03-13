@@ -29,5 +29,7 @@ namespace pruebaMvc01.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<pruebaMvc01.Models.Product> Products { get; set; }
     }
 }

@@ -58,11 +58,11 @@ namespace pruebaMvc01
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "774953116183-ue5pdjbbub588g98qf9hft116nirq9mp.apps.googleusercontent.com",
+                ClientSecret = "fQTjb_rrk3kDiVJrHYhU5pHk"
+            });
         }
     }
 }
